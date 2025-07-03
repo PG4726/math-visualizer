@@ -66,7 +66,7 @@ def dice_simulator():
         print("Please enter a valid number.")
 
 def coin_toss_simulator():
-    print("\n Coin Toss Simulator")
+    print("\n---Coin Toss Simulator---")
     try: 
         tosses = int(input("How many times to toss the coin?"))
         heads = 0
@@ -89,7 +89,7 @@ def coin_toss_simulator():
 #Main
 
 while True:
-    clear_screen()
+    #clear_screen()
     show_menu()
     choice = input("Choose an option (1-5): ")
 
